@@ -1,0 +1,5 @@
+[libraries.spring-boot-starter]
+module = "org.springframework.boot:spring-boot-starter"
+
+[libraries.spring-boot-starterTest]
+module = "org.springframework.boot:spring-boot-starter-test"

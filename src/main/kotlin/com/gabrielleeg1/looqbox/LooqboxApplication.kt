@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class LooqboxApplication
 
 fun main(args: Array<String>) {
-	runApplication<LooqboxApplication>(*args)
+    runApplication<LooqboxApplication>(*args)
 }
