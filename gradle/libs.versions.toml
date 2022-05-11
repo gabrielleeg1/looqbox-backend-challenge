@@ -1,5 +1,16 @@
-[libraries.spring-boot-starter]
-module = "org.springframework.boot:spring-boot-starter"
+[versions]
+kotlinx = "1.6.0"
+
+[libraries.kotlinx-coroutines]
+module = "org.jetbrains.kotlinx:kotlinx-coroutines-core"
+version.ref = "kotlinx"
+
+[libraries.kotlinx-coroutinesReactor]
+module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor"
+version.ref = "kotlinx"
+
+[libraries.spring-boot-starterWebflux]
+module = "org.springframework.boot:spring-boot-starter-webflux"
 
 [libraries.spring-boot-starterTest]
 module = "org.springframework.boot:spring-boot-starter-test"

@@ -21,8 +21,10 @@ dependencies {
   implementation(kotlin("reflect"))
   implementation(kotlin("stdlib-jdk8"))
 
-  implementation(libs.spring.boot.starter)
+  implementation(libs.kotlinx.coroutines)
+  implementation(libs.kotlinx.coroutinesReactor)
 
+  implementation(libs.spring.boot.starterWebflux)
   testImplementation(libs.spring.boot.starterTest)
 }
 
