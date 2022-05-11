@@ -1,13 +1,18 @@
 [versions]
-kotlinx = "1.6.0"
+kotlinx-serialization = "1.3.2"
+kotlinx-coroutines = "1.6.0"
+
+[libraries.kotlinx-serialization-json]
+module = "org.jetbrains.kotlinx:kotlinx-serialization-json"
+version.ref = "kotlinx-serialization"
 
 [libraries.kotlinx-coroutines]
 module = "org.jetbrains.kotlinx:kotlinx-coroutines-core"
-version.ref = "kotlinx"
+version.ref = "kotlinx-coroutines"
 
 [libraries.kotlinx-coroutinesReactor]
 module = "org.jetbrains.kotlinx:kotlinx-coroutines-reactor"
-version.ref = "kotlinx"
+version.ref = "kotlinx-coroutines"
 
 [libraries.spring-boot-starterWebflux]
 module = "org.springframework.boot:spring-boot-starter-webflux"
