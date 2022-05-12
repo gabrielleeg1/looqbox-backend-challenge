@@ -28,6 +28,7 @@ dependencies {
 
   implementation(libs.spring.boot.starterWebflux)
   testImplementation(libs.spring.boot.starterTest)
+  testImplementation(libs.mockito.kotlin)
 }
 
 ktlint {
