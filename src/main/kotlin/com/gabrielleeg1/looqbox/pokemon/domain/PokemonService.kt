@@ -18,8 +18,7 @@ interface PokemonService {
  * Results contains the pokemon's name and the highlighted search term.
  *
  * @property name pokemon's name
- * @property start index of the first character of the search term
- * @property start index of the last character of the search term
+ * @property highlight highlighted search term
  */
 @Serializable
-data class QueryResult(val name: String, val start: Int, val end: Int)
+data class QueryResult(val name: String, val highlight: String)
